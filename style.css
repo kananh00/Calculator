@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-image: url(https://i.imgur.com/mSPU63U.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+section{
+    display: flex;
+    margin-top: 250px;
+}
+.calculator_btns{
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+
+}
+
+.calc_wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #444444;
+    border-radius: 5px;
+    width: 250px;
+}
+
+form input{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 98%;
+    border: none;
+    height: 90px;
+    text-align: start;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.calc_btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
